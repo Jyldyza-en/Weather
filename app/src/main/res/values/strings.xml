@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Weather</string>
-    <string name="hello_kotlin">ВСЕМ ПРИВЕТ</string>
-    <string name="button">Button</string>
-    <string name="button1">Button</string>
-    <string name="hello_world_hello_world_hello_world_hello_world_hello_world_hello_world">Hello world Hello world Hello world Hello world Hello world Hello world</string>
+    <string name="accept">ok</string>
+    <string name="greeting">Hello!</string>
+    <string name="name">Name</string>
+    <string name="string_hint1">Type here</string> />
 </resources>
