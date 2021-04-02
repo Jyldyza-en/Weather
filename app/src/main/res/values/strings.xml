@@ -3,5 +3,8 @@
     <string name="accept">ok</string>
     <string name="greeting">Hello!</string>
     <string name="name">Name</string>
-    <string name="string_hint1">Type here</string> />
+    <string name="string_hint1">Type here</string>
+    <string name="hello">ПРИВЕТ ВСЕМ</string>
+    <string name="button">button</string>
+    />
 </resources>
