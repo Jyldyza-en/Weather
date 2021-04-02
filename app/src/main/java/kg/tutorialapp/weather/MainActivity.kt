@@ -1,5 +1,6 @@
 package kg.tutorialapp.weather
 
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText

@@ -9,34 +9,40 @@
     tools:ignore="ExtraText">
 
     <TextView
+        android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello"
-        android:textSize="32sp"
+        android:textSize="25sp"
+        android:textColor="@color/teal_700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
         android:layout_marginStart="7dp"
         android:layout_marginTop="270dp"
         android:layout_marginBottom="413dp"
+        android:backgroundTint="#E91E63"
         android:text="@string/button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
         android:layout_marginStart="211dp"
         android:layout_marginTop="274dp"
         android:layout_marginEnd="7dp"
         android:layout_marginBottom="409dp"
+        android:backgroundTint="#E91E63"
         android:text="@string/button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,6 +82,23 @@
             android:importantForAutofill="no"
             android:inputType="text"
             android:text="@string/name" />
+
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/world"
+            android:visibility="visible"
+            android:background="@color/design_default_color_primary_dark"/>
+        <TextView
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/world"
+            android:visibility="visible"
+            android:background="@color/teal_200"
+            android:clickable="true"
+            android:focusable="true" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
