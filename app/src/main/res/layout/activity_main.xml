@@ -8,6 +8,7 @@
     tools:context=".MainActivity"
     tools:ignore="ExtraText">
 
+    <!-- ДЗ к 21 уроку-->
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
@@ -48,10 +49,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toTopOf="parent" />
+    <!-- примеры из 24 урока-->
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="179dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/buttonActivity"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/linearLayout"
+        android:layout_width="405dp"
+        android:layout_height="710dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,23 +98,24 @@
             android:importantForAutofill="no"
             android:inputType="text"
             android:text="@string/name" />
-
+        <!-- примеры из 23 урока -->
         <TextView
             android:id="@+id/view"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:background="@color/design_default_color_primary_dark"
             android:text="@string/world"
-            android:visibility="visible"
-            android:background="@color/design_default_color_primary_dark"/>
+            android:visibility="visible" />
+
         <TextView
             android:id="@+id/view2"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="@string/world"
-            android:visibility="visible"
             android:background="@color/teal_200"
             android:clickable="true"
-            android:focusable="true" />
+            android:focusable="true"
+            android:text="@string/world"
+            android:visibility="visible" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

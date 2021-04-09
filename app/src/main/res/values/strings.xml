@@ -7,5 +7,8 @@
     <string name="hello">ПРИВЕТ ВСЕМ</string>
     <string name="button">button</string>
     <string name="world">Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World</string>
+    <string name="content_kotlin">kotlin logo</string>
+    <string name="buttonActivity">Next Page</string>
+    <string name="buttonBack">Home Page</string>
     />
 </resources>
