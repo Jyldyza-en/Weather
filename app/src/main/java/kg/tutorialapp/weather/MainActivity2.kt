@@ -15,4 +15,9 @@ class MainActivity2 : AppCompatActivity() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
+
+    fun Next(view: View) {
+        val intent3 = Intent(this, ExamplesFromLesson26::class.java)
+        startActivity(intent3)
+    }
 }

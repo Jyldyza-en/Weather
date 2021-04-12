@@ -7,28 +7,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity2">
-<!-- пример из 25 урока-->
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:background="@color/purple_200"
-        app:srcCompat="@drawable/ic_file_type_kotlin_icon_130487"
-        android:contentDescription="@string/content_kotlin" />
+    tools:context=".ExamplesFromLesson26">
 
     <Button
-        android:id="@+id/but4"
+        android:id="@+id/btn_ok"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/butt4"
-        android:onClick="Next"/>
+        android:backgroundTint="#4CAF50"
+        android:text="@string/butt"
+        android:enabled="false"
+        android:textColor="@color/black" />
+
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/buttonBack"
-        android:onClick="Home"/>
+        android:onClick="Home1"/>
+
 
 </LinearLayout>
-
-

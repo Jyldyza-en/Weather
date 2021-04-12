@@ -10,5 +10,7 @@
     <string name="content_kotlin">kotlin logo</string>
     <string name="buttonActivity">Next Page</string>
     <string name="buttonBack">Home Page</string>
+    <string name="butt">Ok</string>
+    <string name="butt4">Next page</string>
     />
 </resources>
