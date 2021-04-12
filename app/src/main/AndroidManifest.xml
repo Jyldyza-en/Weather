@@ -10,15 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_2_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Weather">
-        <activity android:name=".ExamplesFromLesson26"></activity>
-        <activity android:name=".MainActivity2" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ExamplesFromLesson26">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

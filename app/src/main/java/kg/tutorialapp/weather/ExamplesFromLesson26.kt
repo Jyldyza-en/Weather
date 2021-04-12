@@ -22,8 +22,4 @@ class ExamplesFromLesson26 : AppCompatActivity() {
 
     }
 
-    fun Home1(view: View) {
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
-    }
 }

@@ -9,21 +9,18 @@
     android:gravity="center"
     tools:context=".ExamplesFromLesson26">
 
+
+    <!-- примеры из уроков 26 и 27-->
     <Button
         android:id="@+id/btn_ok"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#4CAF50"
-        android:text="@string/butt"
+        android:layout_margin="16dp"
+        android:background="@drawable/selector_btn_rounded"
         android:enabled="false"
-        android:textColor="@color/black" />
+        android:text="@string/butt"
+        android:textColor="@color/white" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/buttonBack"
-        android:onClick="Home1"/>
 
 
 </LinearLayout>
