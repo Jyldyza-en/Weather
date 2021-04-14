@@ -11,13 +11,13 @@
 
 
     <!-- примеры из уроков 26 и 27-->
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_ok"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:background="@drawable/selector_btn_rounded"
-        android:enabled="false"
+        android:enabled="true"
         android:text="@string/butt"
         android:textColor="@color/white" />
 

@@ -14,8 +14,6 @@ class ExamplesFromLesson26 : AppCompatActivity() {
 
         val butt = findViewById<Button>(R.id.btn_ok)
 
-        butt.isEnabled = true
-
         butt.setOnClickListener {
             Toast.makeText(this, getString(R.string.greeting), Toast.LENGTH_LONG).show()
         }
