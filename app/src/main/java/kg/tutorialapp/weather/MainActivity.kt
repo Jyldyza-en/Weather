@@ -4,7 +4,6 @@ package kg.tutorialapp.weather
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.EditText
 import android.widget.TextView
 
@@ -24,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun onClick(view: View) {
+    fun onClick() {
         val intent = Intent(this, MainActivity2::class.java)
         startActivity(intent)
     }
