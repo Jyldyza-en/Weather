@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_2_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Weather">
-        <activity android:name=".Lesson29"></activity>
+        <activity android:name=".Lesson30"></activity>
+        <activity android:name=".Lesson29" />
         <activity android:name=".Lesson28" />
         <activity android:name=".ExamplesFromLesson26">
             <intent-filter>
