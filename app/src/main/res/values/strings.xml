@@ -26,5 +26,8 @@
     <string name="button12">button12</string>
     <string name="butConst">Button</string>
     <string name="TextView">TextView</string>
+    <string name="Activity2">Activity2</string>
+    <string name="Activity3">Activity3</string>
+    <string name="editT">Type here</string>
     />
 </resources>
